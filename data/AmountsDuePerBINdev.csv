@@ -1,4 +1,4 @@
-BIN,Address,Borough,Zip,Block,Lot,Community Board,Lat,Long,AEU Count,Boiler Count,Elevator Count,Energy Benchmarking Count,Energy EER Count,Energy Grade Count,Facade Count,Total Active Violations Count,AEU Amount Due,Boiler Amount Due,Elevator Amount Due,Energy Benchmarking Amount Due,Energy EER Amount Due,Energy Grade Amount Due,Facade Amount Due,Total Amount Due,Date:9/20/2025 07:09
+BIN,Address,Borough,Zip,Block,Lot,Community Board,Lat,Long,AEU Count,Boiler Count,Elevator Count,Energy Benchmarking Count,Energy EER Count,Energy Grade Count,Facade Count,Total Active Violations Count,AEU Amount Due,Boiler Amount Due,Elevator Amount Due,Energy Benchmarking Amount Due,Energy EER Amount Due,Energy Grade Amount Due,Facade Amount Due,Total Amount Due,Date:9/21/2025 07:17
 1000004,1 SOUTH STREET,MANHATTAN,10004,00003,00010,101,40.70092,-74.01444,0,1,0,0,0,0,0,1,0,1000,0,0,0,0,0,1000
 1000006,117 BROAD STREET,MANHATTAN,10004,00005,07501,101,40.70227,-74.0106,0,0,0,0,0,0,2,2,0,0,0,0,0,0,18800,18800
 1000007,4 NEW YORK PLAZA,MANHATTAN,10004,00005,00010,101,40.70278,-74.01072,0,0,40,2,0,0,2,44,0,0,120000,1000,0,0,31900,152900
