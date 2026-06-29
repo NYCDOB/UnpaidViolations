@@ -12,6 +12,7 @@ html, document{
 	min-height:100vh;
 }
 #propInput{
+    outline:none;
     flex:1;
     transition-delay: 5s;
     -moz-transition-delay: 5s;
@@ -150,8 +151,6 @@ html, document{
     position:absolute;
     z-index:999;
 }
-
-
 .clearresult{
     font-size:small;
     cursor:pointer;  
@@ -170,7 +169,14 @@ html, document{
 }
 .datacontent div:nth-of-type(2n) {text-align:right;white-space: nowrap;} 
 .datacontent div:nth-of-type(1n) {text-align:left;} 
-
+.datacontent2{
+    display:    flex;
+    line-height: 1.74em;
+    flex:1;
+    flex-flow: column nowrap;
+    overflow-y:auto;
+    font-weight:600;
+}
 .wersorry {
     display: flex;
     flex-direction: column;
@@ -195,13 +201,17 @@ html, document{
         text-shadow:none;
     }
 }
-.datacontent > div:not(.wersorry)  {
+.datacontent > div:not(.wersorry, .datacontent2)  {
         display:flex;
         flex-wrap:nowrap;
         row-gap: 90px;
         justify-content:space-between;
 }
-
+.datacontent2 > div  {
+        display:flex;
+        flex-wrap:nowrap;
+        justify-content:space-between;
+}
 .xx {
     font-size: smaller;
     cursor:help;
@@ -325,7 +335,6 @@ html, document{
     margin-top: 20px;
     font-weight:500;
 }
-
 ._br a:hover{
     text-shadow:rgb(51, 63, 237) 1px 0 15px;
 }
